@@ -1,0 +1,15 @@
+{
+	"name": "Hide recently updated",
+	"author": "RaZeSloth",
+	"target": "Home",
+	"version": "v0.1",
+	"description": "To hides the recently updated tab.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}
