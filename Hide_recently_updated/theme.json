@@ -3,7 +3,7 @@
 	"author": "RaZeSloth",
 	"target": "Home",
 	"version": "v0.1",
-	"description": "To hides the recently updated tab.",
+	"description": "Hides the \"Recently updated on this device\" tab.",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
