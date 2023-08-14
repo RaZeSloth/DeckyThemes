@@ -1,0 +1,6 @@
+/* hide trending among friends */
+/* Class  */
+
+.homestorecarousel_StoreCarouselCtn_3zVCV:first-child {
+    display: none !important;
+}
