@@ -1,9 +1,9 @@
 {
-	"name": "Home edit",
+	"name": "Home Concealer",
 	"author": "RaZeSloth",
 	"target": "Home",
 	"version": "v1.0",
-	"description": "Edit home",
+	"description": "Tired of the clutter and noise on your home screen? This plugin will give you the ability to hide whatever you wish from the home screen.",
 	"manifest_version": 5,
 	"inject": {},
 	"dependencies": {},
