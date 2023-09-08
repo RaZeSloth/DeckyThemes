@@ -1,0 +1,162 @@
+{
+	"name": "Home Concealer",
+	"author": "RaZeSloth & BigBeau",
+	"target": "Home",
+	"version": "v1.1",
+	"description": "Tired of the clutter and noise on your home screen? This plugin will give you the ability to hide whatever you wish from the home screen.",
+	"manifest_version": 5,
+	"inject": {},
+	"dependencies": {},
+	"patches": {
+		"Hide recently updated": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_updated_recently.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide \"Trending among friends\"": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_trending_friends.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide special offers": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_special_offers.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide discover block": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_discover.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide news": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_news.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide \"Play next from your library\"": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_play_next.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide Wishlist Sales": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_wishlist_sales.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide recommended releases": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_recommended_releases.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide top sellers": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_top_sellers.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Hide new and trending": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"patches/hide_new_trending.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		}
+	}
+}
