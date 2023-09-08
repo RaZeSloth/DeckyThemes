@@ -1,17 +1,11 @@
 {
 	"name": "Home Concealer",
-	"author": "",
+	"author": "RaZeSloth & BigBeau",
 	"target": "Home",
 	"version": "v1.1",
 	"description": "Tired of the clutter and noise on your home screen? This plugin will give you the ability to hide whatever you wish from the home screen.",
 	"manifest_version": 5,
-	"inject": {
-		"shared.css": [
-			"SP",
-			"MainMenu",
-			"QuickAccess"
-		]
-	},
+	"inject": {},
 	"dependencies": {},
 	"patches": {
 		"Hide recently updated": {
@@ -139,7 +133,7 @@
 			"default": "No",
 			"values": {
 				"Yes": {
-					"shared.css": [
+					"hide_new_trending.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
