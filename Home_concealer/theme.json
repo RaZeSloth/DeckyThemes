@@ -1,6 +1,6 @@
 {
 	"name": "Home Concealer",
-	"author": "RaZeSloth & bigbeau",
+	"author": "RaZeSloth & BigBeau",
 	"target": "Home",
 	"version": "v1.1",
 	"description": "Tired of the clutter and noise on your home screen? This plugin will give you the ability to hide whatever you wish from the home screen.",
@@ -98,6 +98,21 @@
 			},
 			"components": []
 		},
+		"Hide Wishlist Sales": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"hide_wishlist_sales.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},`
 		"Hide recommended releases": {
 			"type": "checkbox",
 			"default": "No",
@@ -134,21 +149,6 @@
 			"values": {
 				"Yes": {
 					"hide_new_trending.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		},
-		"Hide Wishlist Sales": {
-			"type": "checkbox",
-			"default": "No",
-			"values": {
-				"Yes": {
-					"hide_wishlist_sales.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
