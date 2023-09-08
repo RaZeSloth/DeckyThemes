@@ -103,7 +103,7 @@
 			"default": "No",
 			"values": {
 				"Yes": {
-					"hide_wishlist_sales.css": [
+					"patches/hide_wishlist_sales.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -112,7 +112,7 @@
 				"No": {}
 			},
 			"components": []
-		},`
+		},
 		"Hide recommended releases": {
 			"type": "checkbox",
 			"default": "No",
@@ -148,7 +148,7 @@
 			"default": "No",
 			"values": {
 				"Yes": {
-					"hide_new_trending.css": [
+					"patches/hide_new_trending.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
